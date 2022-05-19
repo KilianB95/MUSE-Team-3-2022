@@ -13,6 +13,12 @@ public class MouseLook : MonoBehaviour
     [SerializeField] float cameraMax = 85f;
     float xRotation = 0f;
 
+    private void Awake()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     private void Update()
     {
         transform.Rotate(Vector3.up, mouseX * Time.deltaTime);

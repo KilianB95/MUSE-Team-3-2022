@@ -27,11 +27,13 @@ public class Movement : MonoBehaviour
         controller.Move(horizontalVelocity * Time.deltaTime);
 
         // Jump: v = sqrt(-2 * jumpHeight * gravity)
-        if (jump) {
-            if (isGrounded) {
+        if (jump)
+        {
+            if (isGrounded)
+            {
                 verticalVelocity.y = Mathf.Sqrt(-2f * jumpHeight * -gravity);
+                jump = false;
             }
-            jump = false;
         }
 
         verticalVelocity.y -= gravity * Time.deltaTime;
