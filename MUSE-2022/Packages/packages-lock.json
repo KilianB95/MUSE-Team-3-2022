@@ -76,6 +76,7 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
