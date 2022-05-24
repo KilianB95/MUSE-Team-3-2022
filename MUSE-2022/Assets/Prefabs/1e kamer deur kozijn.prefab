@@ -93,6 +93,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef849211d2610504f92fc9f7ee713850, type: 3}
+ TaquilaKamer
+=======
+--- !u!1 &7192750919324235151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ef849211d2610504f92fc9f7ee713850, type: 3}
+  m_PrefabInstance: {fileID: 8003073610013100254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8295734238414431075
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192750919324235151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8051144748967258215, guid: ef849211d2610504f92fc9f7ee713850, type: 3}
+ prototype-1
 --- !u!4 &7537363824305712949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef849211d2610504f92fc9f7ee713850, type: 3}
