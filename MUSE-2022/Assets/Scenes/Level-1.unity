@@ -248,6 +248,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4579505667608127787, guid: c8b44c3d224092c43842915662585fe0, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8331347509745625332, guid: c8b44c3d224092c43842915662585fe0, type: 3}
       propertyPath: m_Name
       value: kamer1 prototype
