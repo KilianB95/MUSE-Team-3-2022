@@ -38,7 +38,7 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
 
    [Backlog]: <https://trello.com/b/UXHLk2JY/bo-muse>
    [Logboek]: <https://docs.google.com/document/d/1TXshmsj8IZxkjJISQ8iItIH_XXSon1xZ3O75cm8WhCE/edit?usp=sharing>
-   [GameDesignDoc]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/GameDesignDoc.pdf>
+   [GameDesignDoc]: <https://docs.google.com/presentation/d/1M2NzM_457_98-bUdjl0vzTLv7FJVTAuiGiZV9XCN3hc/edit#slide=id.p>
    [RetrospectiveVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/RetrospectiveVerslagen.pdf>
    [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
    [Prototype]: <https://www.mijnmytheprototype.nl>
