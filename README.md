@@ -1,4 +1,4 @@
-## Play The Fucking Game
+## Play The F*cking Game #### Game titel
 Project team: Kilian, Martijn, Taquila, Falko, Nils, Luciano en Max
 
 Platform:
