@@ -21,17 +21,17 @@ public class LineMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         transform.position = _n * (_verticalOne.transform.position - _verticalTwo.transform.position) + _verticalTwo.transform.position;
 
         _n += _speed;
 
-        if(_n <= 0)
+        if (_n <= 0)
         {
             _speed = Mathf.Abs(_speed);
         }
-        if(_n >= 1f)
+        if (_n >= 1f)
         {
             _speed = -Mathf.Abs(_speed);
         }

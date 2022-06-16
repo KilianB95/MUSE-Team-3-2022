@@ -130,4 +130,4 @@ MonoBehaviour:
   _horizontalTwo: {fileID: 0}
   _hv: {x: 0, y: 0, z: 0}
   _n: 0
-  _speed: 0.002
+  _speed: 0.02
