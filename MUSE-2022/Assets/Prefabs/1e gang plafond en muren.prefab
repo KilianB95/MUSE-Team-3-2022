@@ -86,7 +86,7 @@ PrefabInstance:
     - target: {fileID: -6483737643860691384, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1b844a1e9f4ec0544a6074edca918a6e, type: 2}
+      objectReference: {fileID: 2100000, guid: 5129933c3fd85b545880cf6ea65f2ab4, type: 2}
     - target: {fileID: 919132149155446097, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
       propertyPath: m_Name
       value: 1eGang-muren-en-plafond-01
@@ -94,15 +94,13 @@ PrefabInstance:
     - target: {fileID: 1137983853056701562, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1b844a1e9f4ec0544a6074edca918a6e, type: 2}
+      objectReference: {fileID: 2100000, guid: 5129933c3fd85b545880cf6ea65f2ab4, type: 2}
     - target: {fileID: 5208763228191935789, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1b844a1e9f4ec0544a6074edca918a6e, type: 2}
+      objectReference: {fileID: 2100000, guid: 5129933c3fd85b545880cf6ea65f2ab4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
- TaquilaKamer
-
 --- !u!1 &1048035259400902174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8016550595821075453, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
@@ -122,14 +120,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 219152115119579943, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
- prototype-1
 --- !u!4 &7368282282174302728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
   m_PrefabInstance: {fileID: 7046968824095092195}
   m_PrefabAsset: {fileID: 0}
- TaquilaKamer
-
 --- !u!1 &8336160553598452514 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1325220561557434049, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
@@ -168,4 +163,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7087135822989496819, guid: 69e8e842dc6f990488838cbd27b1c216, type: 3}
- prototype-1
