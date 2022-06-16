@@ -883,7 +883,7 @@ PrefabInstance:
     - target: {fileID: 2954339823959097510, guid: ed3ee6b71f92af94ba2db4b91bd7534f, type: 3}
       propertyPath: jumpSound
       value: 
-      objectReference: {fileID: 8300000, guid: 739cb6b3ce2403347be088a9bcf19db0, type: 3}
+      objectReference: {fileID: 8300000, guid: d0065c6473e6e974b93520edd261aaf6, type: 3}
     - target: {fileID: 2954339824281993288, guid: ed3ee6b71f92af94ba2db4b91bd7534f, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1130,7 +1130,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c717cc355d008284098f88f4f86c0eef, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 1
   Mute: 0
