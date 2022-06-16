@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LoadingScreen.unity
     guid: 0e5b56752af35394f9562eb6b4f3e409
   - enabled: 1
-    path: Assets/Scenes/Level-1.unity
-    guid: 73b479217ab0ab948be2c5241de35973
+    path: Assets/Scenes/Level1-design-01.unity
+    guid: dcbb390056f16a54887cf79c9d3c8945
   - enabled: 1
     path: Assets/Scenes/blockout-scene-2.unity
     guid: ea4d9020f3bb4864f94aeaf0dd71ac1e
+  - enabled: 0
+    path: Assets/Scenes/Level-1.unity
+    guid: 73b479217ab0ab948be2c5241de35973
   m_configObjects: {}

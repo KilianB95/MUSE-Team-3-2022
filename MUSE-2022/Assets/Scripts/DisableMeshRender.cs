@@ -6,7 +6,7 @@ public class DisableMeshRender : MonoBehaviour
 {
     void Awake()
     {
-        MeshRenderer mesh = this.gameObject.GetComponent<MeshRenderer>();
-        mesh.enabled = false;
+        MeshRenderer _mesh = this.gameObject.GetComponent<MeshRenderer>();
+        _mesh.enabled = false;
     }
 }

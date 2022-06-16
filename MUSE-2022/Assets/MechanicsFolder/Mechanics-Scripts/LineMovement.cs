@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class LineMovement : MonoBehaviour
 {
-    public GameObject verticalOne;
-    public GameObject verticalTwo;
+    public GameObject _verticalOne;
+    public GameObject _verticalTwo;
 
-    public GameObject horizontalOne;
-    public GameObject horizontalTwo;
+    public GameObject _horizontalOne;
+    public GameObject _horizontalTwo;
 
-    public Vector3 hv;
+    public Vector3 _hv;
 
-    public float n = 0f;
-    public float speed = 0.1f;
+    public float _n = 0f;
+    public float _speed = 0.1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,17 +23,17 @@ public class LineMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = n * (verticalOne.transform.position - verticalTwo.transform.position) + verticalTwo.transform.position;
+        transform.position = _n * (_verticalOne.transform.position - _verticalTwo.transform.position) + _verticalTwo.transform.position;
 
-        n += speed;
+        _n += _speed;
 
-        if(n <= 0)
+        if(_n <= 0)
         {
-            speed = Mathf.Abs(speed);
+            _speed = Mathf.Abs(_speed);
         }
-        if(n >= 1f)
+        if(_n >= 1f)
         {
-            speed = -Mathf.Abs(speed);
+            _speed = -Mathf.Abs(_speed);
         }
     }
 }

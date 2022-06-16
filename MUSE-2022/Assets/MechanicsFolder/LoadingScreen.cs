@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class LoadingScreen : MonoBehaviour
 {
-    private bool loadScene;
+    private bool _loadScene;
     [SerializeField] Image _loadingBar;
 
     private void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Space)&& loadScene == false)
+        if(Input.GetKeyUp(KeyCode.Space)&& _loadScene == false)
         {
-            loadScene = true;
+            _loadScene = true;
 
             StartCoroutine(LoadNextLevel());
         }

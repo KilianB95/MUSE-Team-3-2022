@@ -4,41 +4,41 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    [SerializeField] Movement movement;
-    [SerializeField] MouseLook mouseLook;
+    [SerializeField] Movement _movement;
+    [SerializeField] MouseLook _mouseLook;
 
-    PlayerControls playerControls;
-    PlayerControls.MovementActions playerMovement;
+    PlayerControls _playerControls;
+    PlayerControls.MovementActions _playerMovement;
 
-    Vector2 horizontalInput;
-    Vector2 mouseInput;
+    Vector2 _horizontalInput;
+    Vector2 _mouseInput;
 
     private void Awake()
     {
-        playerControls = new PlayerControls();
-        playerMovement = playerControls.Movement;
+        _playerControls = new PlayerControls();
+        _playerMovement = _playerControls.Movement;
 
-        playerMovement.Move.performed += context => horizontalInput = context.ReadValue<Vector2>();
+        _playerMovement.Move.performed += context => _horizontalInput = context.ReadValue<Vector2>();
 
-        playerMovement.Jump.performed += _ => movement.OnJumpPressed();
+        _playerMovement.Jump.performed += _ => _movement.OnJumpPressed();
 
-        playerMovement.CameraX.performed += context => mouseInput.x = context.ReadValue<float>();
-        playerMovement.CameraY.performed += context => mouseInput.y = context.ReadValue<float>();
+        _playerMovement.CameraX.performed += context => _mouseInput.x = context.ReadValue<float>();
+        _playerMovement.CameraY.performed += context => _mouseInput.y = context.ReadValue<float>();
     }
 
     private void Update()
     {
-        movement.ReceiveInput(horizontalInput);
-        mouseLook.ReceiveInput(mouseInput);
+        _movement.ReceiveInput(_horizontalInput);
+        _mouseLook.ReceiveInput(_mouseInput);
     }
 
     private void OnEnable()
     {
-        playerControls.Enable();
+        _playerControls.Enable();
     }
 
     private void OnDisable()
     {
-        playerControls.Disable();
+        _playerControls.Disable();
     }
 }

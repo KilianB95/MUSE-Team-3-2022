@@ -87,6 +87,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum_zaal2_02
       objectReference: {fileID: 0}
+    - target: {fileID: 8767230023584889893, guid: ae08d2fade00d7e4d81afaa1a06af1c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5283fe6a56404040b94d6dd18471013, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae08d2fade00d7e4d81afaa1a06af1c1, type: 3}
 --- !u!4 &2186583946274170326 stripped
