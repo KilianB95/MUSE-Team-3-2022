@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43993968, g: 0.48840952, b: 0.5686117, a: 1}
+  m_IndirectSpecularColor: {r: 0.43993986, g: 0.48840988, b: 0.56861204, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1295,6 +1295,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum_level3
       objectReference: {fileID: 0}
+    - target: {fileID: 4113702554965044058, guid: ae61a3a12d1ecd543a622a8107830170, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4113702554965044058, guid: ae61a3a12d1ecd543a622a8107830170, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4113702554965044058, guid: ae61a3a12d1ecd543a622a8107830170, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4297528817145335855, guid: ae61a3a12d1ecd543a622a8107830170, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1339,6 +1351,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7526757652063933646, guid: ae61a3a12d1ecd543a622a8107830170, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1dbad2e7f48c6c5479c844c0a749aea8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae61a3a12d1ecd543a622a8107830170, type: 3}
 --- !u!1001 &2982426275977579253
@@ -1449,6 +1465,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6951731259096284696, guid: ddb3915330e51c242a3dc61ff35d0e29, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5283fe6a56404040b94d6dd18471013, type: 2}
     - target: {fileID: 7805162604744658535, guid: ddb3915330e51c242a3dc61ff35d0e29, type: 3}
       propertyPath: m_Name
       value: Museum_level2
