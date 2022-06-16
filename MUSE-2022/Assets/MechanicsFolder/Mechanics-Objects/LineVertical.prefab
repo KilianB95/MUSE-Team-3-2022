@@ -124,10 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2847b5425ab3dc46b5f2c56acef58ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalOne: {fileID: 0}
-  verticalTwo: {fileID: 0}
-  horizontalOne: {fileID: 0}
-  horizontalTwo: {fileID: 0}
-  hv: {x: 0, y: 0, z: 0}
-  n: 0
-  speed: 0.1
+  _verticalOne: {fileID: 0}
+  _verticalTwo: {fileID: 0}
+  _horizontalOne: {fileID: 0}
+  _horizontalTwo: {fileID: 0}
+  _hv: {x: 0, y: 0, z: 0}
+  _n: 0
+  _speed: 0.002
