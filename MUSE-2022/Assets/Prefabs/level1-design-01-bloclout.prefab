@@ -269,7 +269,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ef849211d2610504f92fc9f7ee713850, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1b844a1e9f4ec0544a6074edca918a6e, type: 2}
+      objectReference: {fileID: 2100000, guid: 5129933c3fd85b545880cf6ea65f2ab4, type: 2}
     - target: {fileID: 919132149155446097, guid: ef849211d2610504f92fc9f7ee713850, type: 3}
       propertyPath: m_Name
       value: 1eKamer-muur-met-deurgat-01

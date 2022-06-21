@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadingScreen : MonoBehaviour
 {
-    private bool loadScene;
+    private bool _loadScene;
     [SerializeField] Image _loadingBar;
     public string _levelName;
 
@@ -14,7 +14,7 @@ public class LoadingScreen : MonoBehaviour
     {
         if(Input.anyKey && loadScene == false)
         {
-            loadScene = true;
+            _loadScene = true;
 
             StartCoroutine(LoadNextLevel());
         }
