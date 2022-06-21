@@ -113,10 +113,10 @@ Material:
     - _TILLING: 0.24
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _glow: 1.1
-    - _offset: 0.23
+    - _glow: 1.199
+    - _offset: 0.239
     - _power: 0.9
-    - _tilling: 0.558
+    - _tilling: 0.497
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
