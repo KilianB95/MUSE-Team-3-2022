@@ -12,7 +12,7 @@ public class LoadingScreen : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Space)&& loadScene == false)
+        if(Input.anyKey && loadScene == false)
         {
             loadScene = true;
 
