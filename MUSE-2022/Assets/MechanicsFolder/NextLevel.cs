@@ -9,7 +9,7 @@ public class NextLevel : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("blockout-scene-2");
+            SceneManager.LoadScene("Level1-design-01");
         }
     }
 }
