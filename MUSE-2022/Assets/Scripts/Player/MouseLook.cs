@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    [SerializeField] float sensitivityX = 45f;
-    [SerializeField] float sensitivityY = 0.1f;
+    [SerializeField] float _sensitivityX = 45f;
+    [SerializeField] float _sensitivityY = 0.1f;
 
-    float mouseX, mouseY;
+    float _mouseX, _mouseY;
 
-    [SerializeField] Transform playerCamera;
-    [SerializeField] float cameraMax = 85f;
-    float xRotation = 0f;
+    [SerializeField] Transform _playerCamera;
+    [SerializeField] float _cameraMax = 85f;
+    float _xRotation = 0f;
 
     private void Awake()
     {
@@ -21,19 +21,19 @@ public class MouseLook : MonoBehaviour
 
     private void Update()
     {
-        transform.Rotate(Vector3.up, mouseX * Time.deltaTime);
+        transform.Rotate(Vector3.up, _mouseX * Time.deltaTime);
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, - cameraMax, cameraMax);
+        _xRotation -= _mouseY;
+        _xRotation = Mathf.Clamp(_xRotation, - _cameraMax, _cameraMax);
 
-        Vector3 currentRotation = transform.eulerAngles;
-        currentRotation.x = xRotation;
-        playerCamera.eulerAngles = currentRotation;
+        Vector3 _currentRotation = transform.eulerAngles;
+        _currentRotation.x = _xRotation;
+        _playerCamera.eulerAngles = _currentRotation;
     }
 
-    public void ReceiveInput (Vector2 mouseInput)
+    public void ReceiveInput (Vector2 _mouseInput)
     {
-        mouseX = mouseInput.x * sensitivityX;
-        mouseY = mouseInput.y * sensitivityY;
+        _mouseX = _mouseInput.x * _sensitivityX;
+        _mouseY = _mouseInput.y * _sensitivityY;
     }
 }

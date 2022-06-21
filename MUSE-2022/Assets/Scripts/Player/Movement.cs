@@ -4,49 +4,66 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] CharacterController controller;
-    [SerializeField] float speed = 11f;
-    Vector2 horizontalInput;
+    [SerializeField] CharacterController _controller;
+    [SerializeField] float _speed = 11f;
+    Vector2 _horizontalInput;
 
-    [SerializeField] float jumpHeight = 3.5f;
-    bool jump;
+    public AudioSource _audio;
+    public AudioClip _walkLoop;
+    public AudioClip _jumpSound;
 
-    [SerializeField] float gravity = 30f;
-    Vector3 verticalVelocity = Vector3.zero;
-    [SerializeField] LayerMask groundMask;
-    bool isGrounded;
+    [SerializeField] float _jumpHeight = 3.5f;
+    bool _jump;
+    bool _playJumpSound = false;
+
+    [SerializeField] float _gravity = 30f;
+    Vector3 _verticalVelocity = Vector3.zero;
+    [SerializeField] LayerMask _groundMask;
+    [SerializeField] bool _isGrounded;
 
     private void Update ()
     {
-        isGrounded = controller.isGrounded;
-        if (isGrounded) {
-            verticalVelocity.y = 0;
-        }
-
-        Vector3 horizontalVelocity = (transform.right * horizontalInput.x + transform.forward * horizontalInput.y) * speed;
-        controller.Move(horizontalVelocity * Time.deltaTime);
-
-        // Jump: v = sqrt(-2 * jumpHeight * gravity)
-        if (jump)
+        _isGrounded = _controller.isGrounded;
+        if (_isGrounded)
         {
-            if (isGrounded)
+            _verticalVelocity.y = 0;
+            if (_playJumpSound)
             {
-                verticalVelocity.y = Mathf.Sqrt(-2f * jumpHeight * -gravity);
-                jump = false;
+                _playJumpSound = false;
+                _audio.volume = Random.Range(0.8f, 1);
+                _audio.pitch = Random.Range(0.7f, 1.3f);
+                _audio.PlayOneShot(_jumpSound);
             }
         }
 
-        verticalVelocity.y -= gravity * Time.deltaTime;
-        controller.Move(verticalVelocity * Time.deltaTime);
+        if (_verticalVelocity.y < 0)
+        {
+            _playJumpSound = true;
+        }
+
+        Vector3 _horizontalVelocity = (transform.right * _horizontalInput.x + transform.forward * _horizontalInput.y) * _speed;
+        _controller.Move(_horizontalVelocity * Time.deltaTime);
+
+        if (_jump)
+        {
+            if (_isGrounded)
+            {
+                _verticalVelocity.y = Mathf.Sqrt(-2f * _jumpHeight * -_gravity);
+                _jump = false;
+            }
+        }
+
+        _verticalVelocity.y -= _gravity * Time.deltaTime;
+        _controller.Move(_verticalVelocity * Time.deltaTime);
     }
 
     public void ReceiveInput (Vector2 _horizontalInput)
     {
-        horizontalInput = _horizontalInput;
+        this._horizontalInput = _horizontalInput;
     }
 
     public void OnJumpPressed ()
     {
-        jump = true;
+        _jump = true;
     }
 }
