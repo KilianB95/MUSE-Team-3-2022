@@ -12,7 +12,7 @@ public class LoadingScreen : MonoBehaviour
 
     private void Update()
     {
-        if(Input.anyKey && loadScene == false)
+        if(Input.anyKey && _loadScene == false)
         {
             _loadScene = true;
 
