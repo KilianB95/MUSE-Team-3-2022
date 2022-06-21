@@ -1,0 +1,10 @@
+diff a/MUSE-2022/Assets/materials/Museum-zaal-2.mat b/MUSE-2022/Assets/materials/Museum-zaal-2.mat	(rejected hunks)
+@@ -109,7 +109,7 @@
+     - _Glossiness: 0
+     - _GlossyReflections: 0
+     - _Metallic: 0
+-    - _OcclusionStrength: 1
++    - _OcclusionStrength: 0.5
+     - _Parallax: 0.005
+     - _QueueOffset: 0
+     - _ReceiveShadows: 1
