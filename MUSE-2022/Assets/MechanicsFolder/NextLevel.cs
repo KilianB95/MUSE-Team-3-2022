@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
+    public string _levelName;
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("blockout-scene-2");
+            SceneManager.LoadScene(_levelName);
         }
     }
 }

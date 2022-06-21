@@ -8,6 +8,7 @@ public class LoadingScreen : MonoBehaviour
 {
     private bool loadScene;
     [SerializeField] Image _loadingBar;
+    public string _levelName;
 
     private void Update()
     {
@@ -22,7 +23,7 @@ public class LoadingScreen : MonoBehaviour
 
     IEnumerator LoadNextLevel()
     {
-        AsyncOperation loadLevel = SceneManager.LoadSceneAsync("Level-1");
+        AsyncOperation loadLevel = SceneManager.LoadSceneAsync(_levelName);
         
         while (!loadLevel.isDone)
         {
