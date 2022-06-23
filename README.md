@@ -40,7 +40,7 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
    [GameDesignDoc]: <https://docs.google.com/presentation/d/1M2NzM_457_98-bUdjl0vzTLv7FJVTAuiGiZV9XCN3hc/edit#slide=id.p>
    [RetrospectiveVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/RetrospectiveVerslagen.pdf>
    [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
-   [Prototype]: <https://www.mijnmytheprototype.nl>
+   [Prototype]: <https://github.com/KilianB95/MUSE-Team-3-2022/releases/tag/v0.2>
    [Teams link]: <https://web.microsoftstream.com/video/f6ff3bf7-db20-43a1-9d23-fedc84a151d0>
    [youtube link]: <https://www.youtube.com/playlist?list=PLD4yo6K7rlKdsqO2KW7rBFXh09wjLQrm5>
    [youtube link 2]: <https://www.youtube.com/watch?v=HmerXGIoC-Y&list=PLD4yo6K7rlKdsqO2KW7rBFXh09wjLQrm5&index=5>
