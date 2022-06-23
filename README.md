@@ -29,9 +29,10 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
 #### Producten Werkproces 3
 | Product  | Link |
 | ------ |  ------ |
-| Opnames standups (Teams opnames)                          | [youtube link]
+| Opnames sprint retrospectives (Teams opnames)             | [Teams link]
+| Opnames standups (Youtube playlist)                       | [youtube link]
 | Link naar online speelbaar prototype                      | [Prototype]
-| Logboek (Teams link)                                      | [Logboek]
+| Logboek (Online bestand)                                  | [Logboek]
 |<img width=500/>|<img width=300/>|
 
    [Backlog]: <https://trello.com/b/UXHLk2JY/bo-muse>
