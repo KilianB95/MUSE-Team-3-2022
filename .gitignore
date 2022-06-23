@@ -58,3 +58,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+MUSE-2022/UserSettings/EditorUserSettings.asset
+MUSE-2022/UserSettings/Layouts/default-2021.dwlt
+MUSE-2022/UserSettings/EditorUserSettings.asset
+MUSE-2022/UserSettings/Layouts/default-2021.dwlt
+*.asset
+*.dwlt

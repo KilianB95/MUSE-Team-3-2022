@@ -993,7 +993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _loadingBar: {fileID: 1934751238}
-  _levelName: Level-1
+  _levelName: blockout-scene-2
 --- !u!111 &2059596766
 Animation:
   m_ObjectHideFlags: 0

@@ -186,8 +186,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2cae4f1826b7f459e76ea3d6e64364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movement: {fileID: 0}
-  _mouseLook: {fileID: 0}
+  _movement: {fileID: 2954339823959097510}
+  _mouseLook: {fileID: 2954339823959097509}
 --- !u!114 &2954339823959097510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,16 +200,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0584cfef556a1804cbe57090f8a190a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _controller: {fileID: 0}
-  _speed: 11
-  _audio: {fileID: 0}
+  _controller: {fileID: 2954339823959097504}
+  _speed: 5
+  _audio: {fileID: 4010618328573821833}
   _walkLoop: {fileID: 0}
-  _jumpSound: {fileID: 0}
-  _jumpHeight: 3.5
+  _jumpSound: {fileID: 8300000, guid: cfcd7e1269c429c49bbdf7a5cdb6dbda, type: 3}
+  _jumpHeight: 1.5
   _gravity: 30
   _groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   _isGrounded: 0
 --- !u!114 &2954339823959097509
 MonoBehaviour:
@@ -223,9 +223,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26c9158b4757975418ea1e5ae750d8bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sensitivityX: 45
-  _sensitivityY: 0.1
-  _playerCamera: {fileID: 0}
+  _sensitivityX: 120
+  _sensitivityY: 0.5
+  _playerCamera: {fileID: 2954339823365863536}
   _cameraMax: 85
 --- !u!82 &4010618328573821833
 AudioSource:

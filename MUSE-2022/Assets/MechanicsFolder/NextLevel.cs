@@ -10,7 +10,7 @@ public class NextLevel : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(_levelName);
+            SceneManager.LoadScene("Level1-design-01");
         }
     }
 }
