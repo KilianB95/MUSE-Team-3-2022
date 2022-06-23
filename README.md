@@ -12,28 +12,26 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
 #### Producten Werkproces 1
 | Product  | Link |
 | ------ |  ------ |
-| Link naar online product backlog (Trello) | [Backlog]
-| Logboek (pdf)                             | [Logboek]
-| Game concept doc (pdf)                    | [GameDesignDoc]
+| Link naar online product backlog (Trello)                 | [Backlog]
+| Logboek (online bestand)                                  | [Logboek]
+| Game concept doc (online bestand)                         | [GameDesignDoc]
 |<img width=500/>|<img width=300/>|
    
 #### Producten Werkproces 2
 | Product  | Link |
 | ------ |  ------ |
 | Online Product backlog & Sprint backlog + DoD (Trello)    | [Backlog]
-| Sprint retrospective verslagen (pdf)                      | [RetrospectiveVerslagen]
-| Logboek (pdf)                                             | [Logboek]
-| Opnames sprint retrospectives (Teams opnames)             | [youtube link]
-| Opnames standups (Teams opnames)                          | [youtube link]
+| Logboek (online bestand)                                  | [Logboek]
+| Opnames sprint retrospectives (Teams opnames)             | [Teams link]
+| Opnames standups (youtube playlist)                       | [youtube link]
 |<img width=500/>|<img width=300/>|
    
 #### Producten Werkproces 3
 | Product  | Link |
 | ------ |  ------ |
-| Sprint retrospective verslagen (pdf)  | [RetrospectiveVerslagen]
-| Sprint review verslagen (pdf)         | [ReviewVerslagen]
-| Link naar online speelbaar prototype  | [Prototype]
-| Logboek (pdf)                         | [Logboek]
+| Opnames standups (Teams opnames)                          | [youtube link]
+| Link naar online speelbaar prototype                      | [Prototype]
+| Logboek (Teams link)                                      | [Logboek]
 |<img width=500/>|<img width=300/>|
 
    [Backlog]: <https://trello.com/b/UXHLk2JY/bo-muse>
@@ -42,5 +40,6 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
    [RetrospectiveVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/RetrospectiveVerslagen.pdf>
    [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
    [Prototype]: <https://www.mijnmytheprototype.nl>
+   [Teams link]: <https://web.microsoftstream.com/video/f6ff3bf7-db20-43a1-9d23-fedc84a151d0>
    [youtube link]: <https://www.youtube.com/playlist?list=PLD4yo6K7rlKdsqO2KW7rBFXh09wjLQrm5>
    
