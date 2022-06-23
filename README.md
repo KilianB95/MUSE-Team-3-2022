@@ -42,5 +42,5 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
    [RetrospectiveVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/RetrospectiveVerslagen.pdf>
    [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
    [Prototype]: <https://www.mijnmytheprototype.nl>
-   [Folder op teams]: <https://www.linknaarmijnfolderopteams.nl>
+   [Folder op teams]: <https://teams.microsoft.com/_?culture=nl-nl&country=NL&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/FileBrowserTabApp/Team%2003?threadId=19:8e9e28791fa04ffc849012f832fd28f9@thread.tacv2&ctx=channel>
    
