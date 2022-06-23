@@ -23,8 +23,8 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
 | Online Product backlog & Sprint backlog + DoD (Trello)    | [Backlog]
 | Sprint retrospective verslagen (pdf)                      | [RetrospectiveVerslagen]
 | Logboek (pdf)                                             | [Logboek]
-| Opnames sprint retrospectives (Teams opnames)             | [Folder op teams]
-| Opnames standups (Teams opnames)                          | [Folder op teams]
+| Opnames sprint retrospectives (Teams opnames)             | [youtube link]
+| Opnames standups (Teams opnames)                          | [youtube link]
 |<img width=500/>|<img width=300/>|
    
 #### Producten Werkproces 3
@@ -42,5 +42,5 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
    [RetrospectiveVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/RetrospectiveVerslagen.pdf>
    [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
    [Prototype]: <https://www.mijnmytheprototype.nl>
-   [Folder op teams]: <https://teams.microsoft.com/_?culture=nl-nl&country=NL&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/FileBrowserTabApp/Team%2003?threadId=19:8e9e28791fa04ffc849012f832fd28f9@thread.tacv2&ctx=channel>
+   [youtube link]: <https://www.youtube.com/playlist?list=PLD4yo6K7rlKdsqO2KW7rBFXh09wjLQrm5>
    
