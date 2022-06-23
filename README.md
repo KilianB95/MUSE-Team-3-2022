@@ -22,7 +22,7 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
 | ------ |  ------ |
 | Online Product backlog & Sprint backlog + DoD (Trello)    | [Backlog]
 | Logboek (online bestand)                                  | [Logboek]
-| Opnames sprint retrospectives (Teams opnames)             | [Teams link]
+| Opnames sprint retrospectives (Teams opnames)             | [Teams link]  [youtube link 2]
 | Opnames standups (youtube playlist)                       | [youtube link]
 |<img width=500/>|<img width=300/>|
    
@@ -43,4 +43,4 @@ Het doel van de game is om naar het eind van elke kamer te gaan. Dit wordt je mo
    [Prototype]: <https://www.mijnmytheprototype.nl>
    [Teams link]: <https://web.microsoftstream.com/video/f6ff3bf7-db20-43a1-9d23-fedc84a151d0>
    [youtube link]: <https://www.youtube.com/playlist?list=PLD4yo6K7rlKdsqO2KW7rBFXh09wjLQrm5>
-   
+   [youtube link 2]: <https://www.youtube.com/watch?v=HmerXGIoC-Y&list=PLD4yo6K7rlKdsqO2KW7rBFXh09wjLQrm5&index=5>
