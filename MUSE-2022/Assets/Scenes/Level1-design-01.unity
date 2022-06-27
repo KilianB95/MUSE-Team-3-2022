@@ -5066,7 +5066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa0502238c71da14fb8e459f8578a0f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelName: 
+  _levelName: blockout-scene-2
 --- !u!65 &154038941
 BoxCollider:
   m_ObjectHideFlags: 0
