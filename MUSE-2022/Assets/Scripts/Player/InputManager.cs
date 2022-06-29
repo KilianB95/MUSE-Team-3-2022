@@ -6,6 +6,7 @@ public class InputManager : MonoBehaviour
 {
     [SerializeField] Movement _movement;
     [SerializeField] MouseLook _mouseLook;
+    [SerializeField] PlayerResetLevel _playerReset;
 
     PlayerControls _playerControls;
     PlayerControls.MovementActions _playerMovement;
@@ -24,6 +25,8 @@ public class InputManager : MonoBehaviour
 
         _playerMovement.CameraX.performed += context => _mouseInput.x = context.ReadValue<float>();
         _playerMovement.CameraY.performed += context => _mouseInput.y = context.ReadValue<float>();
+
+        _playerMovement.Reset.performed += _ => _playerReset.ResetLevel();
     }
 
     private void Update()

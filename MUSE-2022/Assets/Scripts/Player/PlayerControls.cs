@@ -62,6 +62,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Reset"",
+                    ""type"": ""Button"",
+                    ""id"": ""bea260ac-f166-41d5-a4e9-ca64ffbd5038"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -196,6 +205,28 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""CameraY"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b47c0515-7a71-416a-aa87-953cc7b8dc42"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Reset"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""56369999-8b7c-4403-8868-812a0997f325"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Reset"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -208,6 +239,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_Movement_Jump = m_Movement.FindAction("Jump", throwIfNotFound: true);
         m_Movement_CameraX = m_Movement.FindAction("CameraX", throwIfNotFound: true);
         m_Movement_CameraY = m_Movement.FindAction("CameraY", throwIfNotFound: true);
+        m_Movement_Reset = m_Movement.FindAction("Reset", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -271,6 +303,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_Movement_Jump;
     private readonly InputAction m_Movement_CameraX;
     private readonly InputAction m_Movement_CameraY;
+    private readonly InputAction m_Movement_Reset;
     public struct MovementActions
     {
         private @PlayerControls m_Wrapper;
@@ -279,6 +312,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @Jump => m_Wrapper.m_Movement_Jump;
         public InputAction @CameraX => m_Wrapper.m_Movement_CameraX;
         public InputAction @CameraY => m_Wrapper.m_Movement_CameraY;
+        public InputAction @Reset => m_Wrapper.m_Movement_Reset;
         public InputActionMap Get() { return m_Wrapper.m_Movement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -300,6 +334,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @CameraY.started -= m_Wrapper.m_MovementActionsCallbackInterface.OnCameraY;
                 @CameraY.performed -= m_Wrapper.m_MovementActionsCallbackInterface.OnCameraY;
                 @CameraY.canceled -= m_Wrapper.m_MovementActionsCallbackInterface.OnCameraY;
+                @Reset.started -= m_Wrapper.m_MovementActionsCallbackInterface.OnReset;
+                @Reset.performed -= m_Wrapper.m_MovementActionsCallbackInterface.OnReset;
+                @Reset.canceled -= m_Wrapper.m_MovementActionsCallbackInterface.OnReset;
             }
             m_Wrapper.m_MovementActionsCallbackInterface = instance;
             if (instance != null)
@@ -316,6 +353,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @CameraY.started += instance.OnCameraY;
                 @CameraY.performed += instance.OnCameraY;
                 @CameraY.canceled += instance.OnCameraY;
+                @Reset.started += instance.OnReset;
+                @Reset.performed += instance.OnReset;
+                @Reset.canceled += instance.OnReset;
             }
         }
     }
@@ -326,5 +366,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnCameraX(InputAction.CallbackContext context);
         void OnCameraY(InputAction.CallbackContext context);
+        void OnReset(InputAction.CallbackContext context);
     }
 }
